@@ -18,5 +18,6 @@ output application/java
 "Sample jenkins deployment api"]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="9df4d39d-841f-42f5-bac1-20d0342f21b8" message="Output payload is #[payload]"/>
 	</flow>
 </mule>
